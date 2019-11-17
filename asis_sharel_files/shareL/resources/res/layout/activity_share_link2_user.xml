@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="60dp">
+            <EditText android:id="@+id/uid" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="User Id" android:inputType="number"/>
+            <Button android:id="@+id/send" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="send"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

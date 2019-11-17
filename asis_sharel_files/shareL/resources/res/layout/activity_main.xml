@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="3dp" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="60dp">
+            <Button android:id="@+id/whoami" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="whoami"/>
+            <Button android:id="@+id/sharelink" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Share Link"/>
+            <Button android:id="@+id/topuser" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Top User"/>
+            <Button android:id="@+id/mylink" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="My Links"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
